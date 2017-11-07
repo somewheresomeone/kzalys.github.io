@@ -1,4 +1,120 @@
-<!DOCTYPE html> <!-- public class index -->
-<html> <!-- { -->
-    Hello again git!
-</html> <!--- }-->
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The title of the page -->
+      <title>
+         Material Portfolio
+      </title>
+      <!-- Change the value of content with an appropriate short description for your website (e.g.: Kristijonas Zalys' portfolio) -->
+      <meta name="description" content="Demo of Material design portfolio template by TemplateFlip.com."/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet">
+      <link href="styles/main.css" rel="stylesheet">
+   </head>
+   <body id="top">
+      <!-- Start of the navigation menu -->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <a href="contact.html" id="contact-button" class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i class="material-icons">mail</i></a>
+         <header class="mdl-layout__header mdl-layout__header--waterfall site-header">
+            <div class="mdl-layout__header-row site-logo-row">
+               <span class="mdl-layout__title">
+                  <div class="site-logo"></div>
+                  <span class="site-description">
+                     <!-- Text under the page logo -->
+                     Material Design Portfolio
+                  </span>
+               </span>
+            </div>
+            <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+               <!-- The navigation bar for big screens -->
+               <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link" href="index.html">Portfolio</a><a class="mdl-navigation__link" href="about.html">About</a><a class="mdl-navigation__link" href="contact.html">Contact</a>
+               </nav>
+            </div>
+         </header>
+         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <!-- The navigation bar for small screens -->
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link" href="index.html">Portfolio</a><a class="mdl-navigation__link" href="about.html">About</a><a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+         </div>
+         <!-- End of the navigation menu -->
+         <!-- Start of the portfolio grid -->
+         <main class="mdl-layout__content">
+            <div class="site-content">
+               <div class="container">
+                  <div class="mdl-grid site-max-width">
+                     <!-- Add new posts here -->
+                     <!-- Start of a post -->
+                     <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                        <div class="mdl-card__media">
+                          <!-- Change the src value in the line below to set the thumbnail for the post -->
+                           <img class="article-image" src="img/portfolio1.jpg" border="0" alt="">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h2 class="mdl-card__title-text">
+                             <!-- The title of the post -->
+                             Rocky Peak
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <!-- Short description of the post -->
+                           Enim labore aliqua consequat ut quis ad occaecat aliquip incididunt. Sunt nulla eu enim irure enim nostrud aliqua consectetur ad consectetur sunt..
+                        </div>
+                        <br>        
+                        <div class="mdl-card__actions mdl-card--border">
+                           <!-- Change the href value in the <a> tag below to set the link to a detailed description for the post (e.g.: portfolio-workshop.html)-->
+                           <!-- Create a copy of portfolio-rocky-creak.html rename it with the value of href that you've just entered (e.g.: portfolio-workshop.html) -->
+                           <!-- Then change the content of the new file by following the instructions -->
+                           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-rocky-peak.html">
+                           Learn More
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End of the post -->
+                    <!-- Start of a post -->
+                     <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                        <div class="mdl-card__media">
+                          <!-- Change the src value in the line below to set the thumbnail for the post -->
+                           <img class="article-image" src="img/workshop.png" border="0" alt="">
+                        </div>
+                        <div class="mdl-card__title">
+                           <h2 class="mdl-card__title-text">
+                             <!-- The title of the post -->
+                             HackSoc workshop
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                          <!-- Short description of the post -->
+                           Hosted a workshop about GitHub
+                        </div>
+                        <br>        
+                        <div class="mdl-card__actions mdl-card--border">
+                           <!-- Change the href value in the <a> tag below to set the link to a detailed description for the post (e.g.: portfolio-workshop.html)-->
+                           <!-- Create a copy of portfolio-rocky-creak.html rename it with the value of href that you've just entered (e.g.: portfolio-workshop.html) -->
+                           <!-- Then change the content of the new file by following the instructions -->
+                           <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="portfolio-workshop.html">
+                           Learn More
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End of the post -->
+                  </div>
+               </div>
+            </div>
+            <!-- End of the portfolio grid -->
+            <!-- Start of the footer -->
+            <footer class="mdl-mini-footer">
+               <div class="footer-container">
+                  <!-- Change the word Untitled to your name (according to the template's licence, you may not delete the link to TemplateFlip's website) -->
+                  <div class="mdl-logo">&copy; Untitled. Design: <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+               </div>
+            </footer>
+            <!-- End of the footer -->
+         </main>
+         <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+      </div>
+   </body>
+</html>
